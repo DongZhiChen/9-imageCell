@@ -15,6 +15,7 @@
 		F215149F1E81BB5D00929A41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F215149D1E81BB5D00929A41 /* LaunchScreen.storyboard */; };
 		F21514AA1E81BB5E00929A41 /* DomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21514A91E81BB5E00929A41 /* DomeTests.m */; };
 		F21514B51E81BB5E00929A41 /* DomeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21514B41E81BB5E00929A41 /* DomeUITests.m */; };
+		F21514C51E81BBB200929A41 /* DZFBBImageShow.m in Sources */ = {isa = PBXBuildFile; fileRef = F21514C41E81BBB200929A41 /* DZFBBImageShow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F21514B01E81BB5E00929A41 /* DomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21514B41E81BB5E00929A41 /* DomeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DomeUITests.m; sourceTree = "<group>"; };
 		F21514B61E81BB5E00929A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21514C31E81BBB200929A41 /* DZFBBImageShow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DZFBBImageShow.h; path = "图片展示/DZFBBImageShow.h"; sourceTree = "<group>"; };
+		F21514C41E81BBB200929A41 /* DZFBBImageShow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DZFBBImageShow.m; path = "图片展示/DZFBBImageShow.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		F215148E1E81BB5D00929A41 /* Dome */ = {
 			isa = PBXGroup;
 			children = (
+				F21514C21E81BB8600929A41 /* 图片展示 */,
 				F21514921E81BB5D00929A41 /* AppDelegate.h */,
 				F21514931E81BB5D00929A41 /* AppDelegate.m */,
 				F21514951E81BB5D00929A41 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				F21514B61E81BB5E00929A41 /* Info.plist */,
 			);
 			path = DomeUITests;
+			sourceTree = "<group>";
+		};
+		F21514C21E81BB8600929A41 /* 图片展示 */ = {
+			isa = PBXGroup;
+			children = (
+				F21514C31E81BBB200929A41 /* DZFBBImageShow.h */,
+				F21514C41E81BBB200929A41 /* DZFBBImageShow.m */,
+			);
+			name = "图片展示";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				F21514971E81BB5D00929A41 /* ViewController.m in Sources */,
 				F21514941E81BB5D00929A41 /* AppDelegate.m in Sources */,
 				F21514911E81BB5D00929A41 /* main.m in Sources */,
+				F21514C51E81BBB200929A41 /* DZFBBImageShow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +530,7 @@
 				F21514BB1E81BB5E00929A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F21514BC1E81BB5E00929A41 /* Build configuration list for PBXNativeTarget "DomeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +539,7 @@
 				F21514BE1E81BB5E00929A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F21514BF1E81BB5E00929A41 /* Build configuration list for PBXNativeTarget "DomeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +548,7 @@
 				F21514C11E81BB5E00929A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
